@@ -23,7 +23,7 @@ def main():
         
         pygame.display.flip()
         
-        dt = clock.tick(60)  # limits FPS to 60
+        dt = clock.tick(60) / 1000  # limits FPS to 60
     
     return
 
